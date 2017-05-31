@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #f3f3f3;
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -81,4 +81,18 @@ div {
 
 label {
   display: block;
+}
+
+.header {
+  background: #3e474f;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 240px;
+  background: transparent url(asset_path(#{"header.jpg"})) no-repeat center center;
+}
+
+.main {
+  margin-top: 250px;
 }
