@@ -1,5 +1,5 @@
 body {
-  background-color: #f3f3f3;
+  background-color: #edeff0;
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -89,10 +89,58 @@ label {
   top: 0;
   right: 0;
   left: 0;
-  height: 240px;
-  background: transparent url(asset_path(#{"header.jpg"})) no-repeat center center;
+  height: 80px;
+
+  h1 {
+    color: #fff;
+    padding-left: 33px;
+    padding-top: 10px;
+  }
 }
 
 .main {
-  margin-top: 250px;
+  margin-top: 90px;
+}
+
+.content {
+  animation: panel-fade-up 0.4s ease;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+  border-radius: 4px;
+  text-align: left;
+  min-height: 550px;
+  padding: 30px 30px;
+
+  table {
+    border-spacing: 0px;
+  }
+
+  th {
+    background-color: #c25975;
+    height: 40px;
+    padding: 0 10px;
+    min-width: 180px;
+    transition: background-color 300ms 0s ease;
+    border-radius: 0 6px 0 0;
+    color: #fff;
+  }
+
+  th:first-child {
+    border-radius: 6px 0 0 0;
+    min-width: 500px;
+  }
+
+  th:nth-child(2) {
+    min-width: 350px;
+    border-radius: 0;
+  }
+
+  td {
+    padding: 10px;
+    background-color: #edeff0;
+  }
+  a.action {
+    padding-left: 30px;
+  }
 }
