@@ -1,12 +1,21 @@
-# Configurar o projeto
+# Instalar as ferramentas necessárias
 
-* Ruby version
+* Instalar o [Ruby](https://www.ruby-lang.org/en/documentation/installation/) versão 2.3.1.
+
+* Instalar o [Ruby on Rails](http://guides.rubyonrails.org/getting_started.html#installing-rails) versão 5.1.1.
 
 * Outras dependências:
 Instalar o [Postgresql](https://www.postgresql.org/download/).
 
-* Database creation
+# Configurar o banco de dados
+```sh
+$ rails db:create
+```
 
-* Database initialization
+# Executar o projeto local
+```sh
+$ rails server
+```
 
-* Deployment instructions
+# Testar o projeto local
+http://localhost:3000
